@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.furniturebrand_top{
+    width: 100%;
+    height: 320px;
+
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+  
+}
+.brandimg{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+   
+
+}
+.brandimg img{
+    width: 100%;
+    height: 100%;
+     border-radius: 20px;
+     transition:   transform 0.3s ease;
+     cursor: pointer;
+    
+}
+.brandimg:hover img {
+    transform: scale(1.03);
+  
+}
+.landingpage_background{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Furniture/Solidwood/Header/Solidwood_1500x300.jpg);
+    height: 300px;
+}
+
+.furniture_quotes{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.furniture_quotes h1{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+}
+.furniture_quotes p{
+    margin-top: 10px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(77, 75, 75);
+}
+
+.about-container{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.aboutcon_left{
+    width: 35%;
+    height: 300px;
+}
+.aboutcon_right{
+   
+    width: 65%;
+    height: 300px;
+    padding: 90px;
+    line-height: 25px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6b6a69;
+  
+}
+.abouthead{
+    padding-left: 120px;
+    padding-top: 50px;
+    height: 70px;
+    margin-bottom: 59px;
+}
+
+.aboutimg img{
+    width: 100%;
+}
+.abouthead h1{
+    color: #494949;
+    font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.emibackground{
+    width: 100%;
+    height: 150px;
+background-image: url(https://www.woodenstreet.com/images/home-new1/emi-banner.jpg?v=30111);
+background-size: 100%;
+}
+
+.brandimg1{
+    width: 100%;
+    height: 300px;
+}
+.brandimg1 img{
+    width: 100%;
+    height: 100%;
+     cursor: pointer;
+    
+}
+.reviewcon{
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    overflow-x: hidden;
+
+}
+.reviewcon img{
+    width:100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+

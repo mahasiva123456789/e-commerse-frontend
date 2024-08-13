@@ -1,0 +1,177 @@
+/* Container for the entire cart component */
+.cartcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left container for the product items */
+.cartleftcon {
+    flex: 3;
+}
+
+/* Each product item container */
+.cartleftpr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Image styling for the product */
+.cartleftpr img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Title of the product */
+.cartleftpr h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+    color: #383636;
+}
+
+/* Container for buttons and price */
+.controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.controls .btnplus
+ {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    font-size: 0.9em;
+}
+.controls .btnqun
+{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    padding: 6px 12px;
+    font-size: 0.9em;
+}
+
+.controls .btnplus:hover
+ {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
+.controls .btnqun:hover
+{
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
+.controls span{
+    color: rgb(34, 153, 34);
+}
+
+.controls .btnplus:active,
+.controls .btnqun:active {
+    background-color: #e0e0e0;
+    border-color: #aaa;
+}
+
+/* Quantity display */
+.controls p {
+    margin: 0 15px;
+    font-size: 1em;
+    color: #0c0c0c;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Price styling */
+.controls .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #161515;
+}
+
+/* Additional styles for the right container */
+.cartright-wrapper {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cartrightcon {
+    padding: 30px; /* Increased padding for more space inside the container */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    max-width: 350px; /* Adjust width as needed */
+}
+
+/* Price details section */
+.cartrightcon div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    padding: 10px 0; /* Adding padding for better separation */
+    border-bottom: 1px solid #e0e0e0; /* Adding a border for separation */
+}
+
+.cartrightcon div:last-child {
+    border-bottom: none; /* Remove border from the last element */
+}
+
+/* Total payable styling */
+.cartrightcon div.total {
+    font-size: 1.5em; /* Slightly larger font size */
+    font-weight: bold;
+    color: #161515;
+    margin-top: 25px; /* Increased margin for better spacing */
+}
+
+/* Place order button styling */
+.cartrightcon button {
+    padding: 12px 50px; /* Increased padding for a larger button */
+    width: 500px;
+    background-color: #b34e10;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px; /* Increased margin for better spacing */
+}
+
+.cartrightcon button:hover {
+    background-color: #5a2511;
+}
+.noitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    background-color: rgb(247, 247, 247);
+   
+}
+.noitem img{
+    width: 400px;
+    
+}
+

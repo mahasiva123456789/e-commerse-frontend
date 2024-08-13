@@ -1,0 +1,24 @@
+.catagorycontainer{
+    display: flex;
+    gap: 40px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: relative;
+    overflow-y: hidden;
+
+ }
+ .cathover{
+    width: 100px;
+    height: 50px;
+    padding-top: 11px;
+    text-align: center;
+    cursor: pointer;
+ }
+ .cathover:hover{
+    background-color: rgb(146, 71, 46);
+    color: #fff;
+}

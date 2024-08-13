@@ -1,0 +1,88 @@
+/* LoginSignup.css */
+
+.login-signup-container {
+  width: 800px;
+  max-width: 90%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.login-signup-box {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-signup-left {
+  background-color: #f4f4f9;
+}
+
+.login-signup-right {
+  background-color: #fff;
+}
+
+.login-signup-h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.login-signup-p {
+  color: #777;
+  text-align: center;
+}
+
+.login-signup-input-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.login-signup-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login-signup-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.login-signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-signup-button:hover {
+  background-color: #45a049;
+}
+
+.login-signup-auth-right h2 {
+  margin-bottom: 10px;
+}
+
+.login-signup-auth-right .login-signup-button {
+  background-color: #2196F3;
+}
+
+.login-signup-auth-right .login-signup-button:hover {
+  background-color: #1e88e5;
+}

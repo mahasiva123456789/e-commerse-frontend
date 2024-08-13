@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.headercon{
+    height: 65px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: relative;
+    overflow-y: hidden;
+    
+}
+.searchbar{
+    /* width: 400px;
+    height: 30px;
+    
+    padding: 10px; */
+    padding: 10px 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    width: 500px;
+    outline: none;
+    margin-left: 100px;
+  
+}
+.headercon h1{
+    margin-right: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large ;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+    
+}
+.headercon a{
+    text-decoration: none;
+    color: inherit;
+}
+.headercon h1:hover{
+    color: rgb(148, 81, 26);
+}
+.ordercount{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5rem ;
+    color: green;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large ;  
+}
+.headeright{
+    display: flex;
+  
+    justify-content: flex-end;
+    align-items: center;
+   margin-right: 20px;
+    width: 100%;
+
+    
+}
+.searchbtn
+{
+    /* 
+    background-color: #a6a7a8;
+    height: 30px;
+    width: 100px; */
+    padding: 10px 25px;
+    font-size: 1em;
+    border: none;
+ 
+    background-color: rgb(71, 26, 9);
+
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin-right: 70px;
+    
+}
